@@ -24,7 +24,7 @@ jobs:
           dockerfile: Dockerfile
 
       - name: Run Trivy vulnerability scanner in fs mode
-        uses: aquasecurity/trivy-action@0.16.0
+        uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
           security-checks: 'vuln,config'
