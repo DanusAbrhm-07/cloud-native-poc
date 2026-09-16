@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: danusabrhm-07/cloud-native-poc
 
 jobs:
   lint-and-scan:
